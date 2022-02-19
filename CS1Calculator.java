@@ -1,7 +1,9 @@
+// Import the Scannner from the java.util
 import java.util.Scanner;
 
 public class CS1Calculator {
 
+    // Initialize variables
     private Scanner scan;
     private int additionCount;
     private int subtractionCount;
@@ -10,8 +12,10 @@ public class CS1Calculator {
     private int totalSolved ; 
       
     public static void main(String[] args) {
-    
+        
+      // Create myCalculator object
       CS1Calculator myCalculator = new CS1Calculator();
+      // Call methods
       myCalculator.printIntro();
       myCalculator.calculate();
       myCalculator.printResults();
